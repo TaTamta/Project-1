@@ -5,7 +5,8 @@
     <title>LandingPage</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="landingpage.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 
 <body>
@@ -31,67 +32,73 @@
                     </ul>
                     <div class="minus"><i class="fas fa-minus"></i></div>
                 </div>
-
             </div>
         </div>
     </section>
 
-
-    <section class="menu">
+    <section clas="header">
         <div class="container">
             <div class="navigation">
-                <nav>
+                <nav class="menu">
                     <ul class="menu_list">
-                        <li><a href="#">HOMEPAGE</a></li>
-                        <li><a href="#">STYLE DEMO</a></li>
-                        <li><a href="#">FULL WIDTH</a></li>
-                        <li><a href="#">DROPDOWN</a></li>
-                        <li><a href="#">GALLERY</a></li>
-                        <li><a href="#">PORTFOLIO</a></li>
-                        <li><a href="#">LINK TEXT</a></li>
-                        <li><a href="#">LONG LINK TEXT</a></li>
+                        <li><a class="active" href="#">Homepage</a></li>
+                        <li><a href="#">Style demo</a></li>
+                        <li><a href="#">Full width</a></li>
+                        <li><a href="#">Dropdown</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Link text</a></li>
+                        <li><a href="#">Long link text</a></li>
                     </ul>
                 </nav>
             </div>
-        </div>
-    </section>
 
-    <section class="header">
-        <div class="container">
-            <div class="header_parts">
-                <div class="title">
+            <div class="secondary_header">
+                <div class="logo">
                     <h1 class="site_name">Nobodys Fool</h1>
                     <p class="description">Free PSD Website Template</p>
                 </div>
-
                 <div class="search">
-                    <input type="text" class="seach_bar" placeholder="Search Our Website...">
-                    <buton class="search_btn">Search</buton>
-
+                    <input type="text" class="search_bar" placeholder="Search Our Website...">
+                    <button type="button" class="button">Search<a href="#"></a></button>
                 </div>
+
             </div>
         </div>
     </section>
 
+
+
+
+
+
+
     <section class="slider">
         <div class="container">
-            <div class="slider_page">
-                <div class="slider_parts">
-                    <div class="text_part">
-                        <div class="slider_texts">
-                            <h2 class="slider_heading">Your title can be long and descriptive</h2>
-                            <p class="slider_paragraph">
-                                Cursuspenatisaccum ut curabitur nulla tellus tor ames a in curabitur pede. Idet mollisi eros dis orci congue elis et curabitur.
-                            </p>
-                            <button class="button">Read More Here &#187;</button>
-                        </div>
-                    </div>
-                    <div class="image_part">
-                        <div class="slider_image"></div>
+            <div class="slider_parts">
+                <div class="slider_texts">
+                    <h2 class="slider_heading">Your title can be long and descriptive</h2>
+                    <p class="slider_paragraph">
+                        Cursuspenatisaccum ut curabitur nulla tellus tor ames a in curabitur pede.
+                        Idet mollisi eros dis orci congue elis et curabitur.
+                    </p>
+                    <button class="button">Read More Here &#187;</button>
+                </div>
+
+                <div class="image_part">
+                    <div class="slider_image" style="background-image: url(https://landezine.com/wp-content/uploads/2010/05/249-550x440.jpg);" ></div>
+                    <div class="slider_nav">
+                        <span class="dot active"></span> 
+                        <span class="dot active"></span> 
+                        <span class="dot active"></span>
+                        <span class="dot active"></span> 
+                        <span class="dot"></span>
                     </div>
                 </div>
             </div>
         </div>
+
+
     </section>
 
     <section class="devices">
@@ -100,19 +107,19 @@
                 <div class="devices_item">
                     <img class="devices_image">
                 </div>
-                
+
                 <div class="devices_item">
-                 <!--grid   <div class="devices_item_infos">
+                    <!--grid   <div class="devices_item_infos">
 
                     </div>
                 </div>-->
 
-            </div>
+                </div>
 
-            <div class="ad">
+                <div class="ad">
 
+                </div>
             </div>
-        </div>
     </section>
 
     <section class="footer">
@@ -124,7 +131,7 @@
                 </div>
                 <div class="footer_item">
                     <h2 class="footer_item_name">Quick Links</h2>
-                    
+
                 </div>
                 <div class="footer_item">
                     <h2 class="footer_item_name">Latest Blog Posts</h2>
@@ -133,7 +140,7 @@
                     <h2 class="footer_item_name">Contact Us</h2>
                 </div>
             </div>
-                    
+
             <div class="bottom_items">
                 <div class="bottom_item">
                     <p class="bottom_notes">Copyright &copy;2013 DOmain Name-All Rights Reserved</p>
