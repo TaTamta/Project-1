@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="landingpage.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
         </head>
@@ -44,6 +45,10 @@
         <div class="container">
             <div class="navigation">
                 <nav class="menu">
+                    <input type="checkbox" id="click">
+                    <label for="click" class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                    </label>
                     <ul class="menu_list">
                         <li><a class="active" href="#">Homepage</a></li>
                         <li><a href="#">Style demo</a></li>
@@ -110,10 +115,10 @@
         <div class="container">
             <div class="intro_items">
                 <div class="left_items">
-                    <!--<div class="devices_img"
-                        style="background-image: url(https://www.seekpng.com/png/full/361-3615532_multiple-devices-multi-platform-clipart.png);">
-                    </div>-->
-                    <img src="img\devices.jpg" alt="devices">
+                    <div class="devices_img"
+                        style="background-image: url('./img/devices.jpg');">
+                    </div>
+                    <!--<img src="img\devices.jpg" alt="devices">-->
                 </div>
 
                 <div class="right_items">
